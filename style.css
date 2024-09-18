@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #007bff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f39c12;
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+  }
+  
+  /* Header Section */
+  header {
+    background-image: url('images/Amdavad.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Tourist Places Section */
+  section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  section .find-on-maps-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; /* Makes text bold */
+    transition: background-color 0.3s ease;
+  }
+  
+  section .find-on-maps-button:hover {
+    background-color: #0366d6;
+  }
+  
+  /* Container for Each Section */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    header p {
+      font-size: 1.2rem;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
